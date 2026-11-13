@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 python-dotenv==1.2.4
+=======
+python-dotenv==1.2.4
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f

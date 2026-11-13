@@ -25,4 +25,8 @@ def upgrade() -> None:
 
 def downgrade() -> None:
     """Downgrade schema."""
+<<<<<<< HEAD
     ${downgrades if downgrades else "pass"}
+=======
+    ${downgrades if downgrades else "pass"}
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Employee Management System
 
 ## Setup Instructions
@@ -253,3 +254,6 @@ Through this project, I gained practical experience with:
 
 *This project is being developed incrementally as part of my backend development learning journey.*
 >>>>>>> 2ac8e2506215b4496949358e66dc091563eecc8a
+=======
+# Employee_Management
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f

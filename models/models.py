@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
 from sqlalchemy import (
     Column,
     Integer,
@@ -39,8 +43,11 @@ class User(Base):
         server_default="employee",
     )
 
+<<<<<<< HEAD
     employee = relationship("Employee", back_populates="user", uselist=False)
 
+=======
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
     created_at = Column(
         DateTime(timezone=True),
         server_default=text("CURRENT_TIMESTAMP"),
@@ -68,6 +75,11 @@ class Employee(Base):
         ForeignKey("departments.id", ondelete="RESTRICT"),
         nullable=False,
     )
+<<<<<<< HEAD
+=======
+
+    # Allows access to the related department and its name
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
     department = relationship("Department")
 
     user_id = Column(
@@ -76,7 +88,10 @@ class Employee(Base):
         unique=True,
         nullable=True,
     )
+<<<<<<< HEAD
     user = relationship("User", back_populates="employee")
+=======
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
 
     created_at = Column(
         DateTime(timezone=True),

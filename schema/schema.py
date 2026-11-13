@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 from datetime import datetime
 from typing import List, Optional
+=======
+
+from typing import Optional
+
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
 from pydantic import BaseModel, ConfigDict, EmailStr, Field
 
 
@@ -27,6 +33,7 @@ class EmployeeUpdate(BaseModel):
 class EmployeeResponse(EmployeeBase):
     id: int
     department_name: str
+<<<<<<< HEAD
     user_id: Optional[int] = None
 
     model_config = ConfigDict(from_attributes=True)
@@ -65,3 +72,7 @@ class Token(BaseModel):
 class TokenData(BaseModel):
     email: Optional[str] = None
     role: Optional[str] = None
+=======
+
+    model_config = ConfigDict(from_attributes=True)
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f

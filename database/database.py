@@ -9,7 +9,11 @@ load_dotenv()
 DATABASE_URL = URL.create(
     drivername="postgresql+psycopg",
     username=os.getenv("DB_USER"),
+<<<<<<< HEAD
     password=os.getenv("DB_PASSWORD"),
+=======
+    password=os.getenv("Hanuman@1118"),
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
     host=os.getenv("DB_HOST", "localhost"),
     port=int(os.getenv("DB_PORT", "5432")),
     database=os.getenv("DB_NAME"),

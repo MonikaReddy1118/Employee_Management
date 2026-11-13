@@ -1,4 +1,5 @@
 # Virtual environment
+<<<<<<< HEAD
 venv/
 .env
 !.env.example
@@ -17,3 +18,32 @@ data/*.json
 # IDE settings
 .vscode/
 .idea/
+=======
+
+venv/
+
+.venv/
+ 
+# Environment variables
+
+.env
+ 
+# Python cache
+
+__pycache__/
+
+*.pyc
+ 
+# IDE files
+
+.vscode/
+ 
+# Testing
+
+.pytest_cache/
+ 
+# Logs
+
+*.log
+ 
+>>>>>>> 147883357cd62047c9454715a473cd5ae90caf9f
